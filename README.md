@@ -11,5 +11,5 @@ The first part of the project is to reduce the dimension of a transaction summar
 # Weak learners and adaptive boosting
 The second part of the project is to implement and train a set of weak learners. An adaptive boosting algorithm is then used to create a functional fraud prediction algorithm.
 
-# Results
-Using 64 clusters and 250 iterations of the boosting algorithm, the model achieves 98.25% accuracy in predicting fraud across the test set. 
+# Results & Discussion
+Using 64 clusters and 250 iterations of the boosting algorithm, the model achieves 98.25% accuracy in predicting fraud across the test set. If additional data points were included in the data set, I would be interested to conduct an econometric analysis to determine whether discrimination is present in the model's predictions, which reflect potential bias, either in the features selected or in the underlying data set. Like other fraud detection algorithms used in financial services, concerns about discrimination are significant because they affect the availability of credit for persons adversely affected. 
